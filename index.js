@@ -25,10 +25,10 @@ app.use((req, res, next) => {
 
 if (config.routes !== false) {
   const routes = [
-    { path: '/', file: 'index.html' },
-    { path: '/', file: 'games.html' },
-    { path: '/', file: 'movies.html' },
-    { path: '/', file: 'img' },
+    { path: 'home.pdf/', file: 'index.html' },
+    { path: 'games.pdf/', file: 'games.html' },
+    { path: 'movies.pdf/', file: 'movies.html' },
+    { path: 'img.pdf/', file: 'img' },
   ];
 
   routes.forEach((route) => {
